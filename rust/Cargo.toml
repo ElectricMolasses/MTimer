@@ -1,0 +1,10 @@
+[package]
+name = "m_timer"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"] # Compile to dynamic C library.
+
+[dependencies]
+godot = { version = "0.5.3", features = ["register-docs"] }

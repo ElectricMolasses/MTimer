@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c60ixy1ctw42i"]
+
+[node name="Node3D" type="Node3D" unique_id=2006051621]
+
+[node name="Timer" type="Timer" parent="." unique_id=204529478]
+
+[node name="MTimer" type="MTimer" parent="." unique_id=910457033]
