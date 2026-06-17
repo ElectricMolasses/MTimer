@@ -1,0 +1,11 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.7
+reloadable = true
+
+[libraries]
+linux.debug.x86_64 =     "res://addons/m_timer/target/debug/libm_timer.so"
+linux.release.x86_64 =   "res://addons/m_timer/target/release/libm_timer.so"
+
+[icons]
+MTimer = "res://addons/m_timer/icons/hourglass.svg"

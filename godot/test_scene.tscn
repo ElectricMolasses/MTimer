@@ -1,7 +1,10 @@
 [gd_scene format=3 uid="uid://c60ixy1ctw42i"]
 
+[ext_resource type="Script" uid="uid://c5ovgkrmp0uxn" path="res://test_scene.gd" id="1_uhqqe"]
+
 [node name="Node3D" type="Node3D" unique_id=2006051621]
+script = ExtResource("1_uhqqe")
 
 [node name="Timer" type="Timer" parent="." unique_id=204529478]
 
-[node name="MTimer" type="MTimer" parent="." unique_id=910457033]
+[node name="MTimer" type="MTimer" parent="." unique_id=336925816]
