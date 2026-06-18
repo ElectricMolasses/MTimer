@@ -4,8 +4,10 @@ compatibility_minimum = 4.7
 reloadable = true
 
 [libraries]
-linux.debug.x86_64 =     "res://addons/m_timer/target/debug/libm_timer.so"
-linux.release.x86_64 =   "res://addons/m_timer/target/release/libm_timer.so"
+linux.debug.x86_64 =     "res://addons/m_timer/bin/linux_64/debug/libm_timer.so"
+linux.release.x86_64 =     "res://addons/m_timer/bin/linux_64/release/libm_timer.so"
+windows.debug.x86_64 =     "res://addons/m_timer/bin/windows_64/debug/libm_timer.dll"
+windows.release.x86_64 =     "res://addons/m_timer/bin/windows_64/release/libm_timer.dll"
 
 [icons]
 MTimer = "res://addons/m_timer/icons/hourglass.svg"

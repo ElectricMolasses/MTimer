@@ -5,6 +5,5 @@
 [node name="Node3D" type="Node3D" unique_id=2006051621]
 script = ExtResource("1_uhqqe")
 
-[node name="Timer" type="Timer" parent="." unique_id=204529478]
-
 [node name="MTimer" type="MTimer" parent="." unique_id=336925816]
+autostart = true
